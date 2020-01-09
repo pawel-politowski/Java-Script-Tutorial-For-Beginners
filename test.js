@@ -1,4 +1,6 @@
-var a = 5;
-var b = 5;
+var string1 = "abc";
+var string2 = "bcd";
 
-console.log(a + b);
+console.log(string1 === string2);
+
+
