@@ -1,3 +1,7 @@
+function setUpEvent(){
+
+
+
 var content = document.getElementById("content");
 var button = document.getElementById("show-more");
 
@@ -12,5 +16,10 @@ button.onclick = function(){
         content.className = "open";
         button.innerHTML = "Show Less";
     }
+};
+
 }
 
+window.onload = function(){
+    setUpEvent();
+}
